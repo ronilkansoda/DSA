@@ -2,6 +2,7 @@
 #include <vector>
 using namespace std;
 
+// Brute Force Approch
 int containerWater1(vector<int> height)
 {
     int maxWater = 0;
@@ -21,6 +22,7 @@ int containerWater1(vector<int> height)
     return maxWater;
 }
 
+// Optimize Approch
 int containerWater(vector<int> height)
 {
     int maxWater = 0;
