@@ -50,7 +50,7 @@ int RotatedSortedArray(vector<int> nums, int target)
 int main()
 {
     vector<int> nums1 = {4, 5, 6, 7, 0, 1, 2};
-    int target1 = 10;
+    int target1 = 0;
 
     int result = RotatedSortedArray(nums1, target1);
 
