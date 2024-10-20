@@ -49,10 +49,10 @@ int RotatedSortedArray(vector<int> nums, int target)
 
 int main()
 {
-    vector<int> nums1 = {4, 5, 6, 7, 0, 1, 2};
-    int target1 = 0;
+    vector<int> nums = {4, 5, 6, 7, 0, 1, 2};
+    int target = 0;
 
-    int result = RotatedSortedArray(nums1, target1);
+    int result = RotatedSortedArray(nums, target);
 
     cout << result << endl;
 
