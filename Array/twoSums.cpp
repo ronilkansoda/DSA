@@ -22,8 +22,8 @@ vector<int> twoSums(vector<int> &nums, int target)
 
 int main()
 {
-    vector<int> arr = {3, 2, 4};
-    int target = 6;
+    vector<int> arr = {-1,0,1,2,-1,-4};
+    int target = 0;
 
     vector<int> result = twoSums(arr, target);
 
