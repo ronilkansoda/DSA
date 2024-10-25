@@ -29,12 +29,10 @@ int searchInsert(vector<int> &nums, int target)
 
 int main()
 {
-    // vector<int> arr = {-1, 0, 1, 2, -1, -4};
-    // vector<int> arr = {0, 0, 0};
-    vector<int> arr = {0, 1, 1};
+    vector<int> arr = {1, 3, 5, 6};
+    int target = 5;
 
-    int res = searchInsert(arr, 4);
-
-    printResult(result);
+    int res = searchInsert(arr, target);
+    cout << res << endl;
     return 0;
 }
