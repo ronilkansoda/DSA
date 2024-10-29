@@ -1,14 +1,16 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-
 using namespace std;
 
+// Boyer-Moore Voting Algorithm
+
+// normal approach
 int majorityEle1(vector<int> nums)
 {
     int n = nums.size();
 
-    // sort
+    // sort O(nlogn)
     sort(nums.begin(), nums.end());
 
     // freq count
@@ -33,12 +35,14 @@ int majorityEle1(vector<int> nums)
     }
     return ans;
 }
+
 int majorityEle(vector<int> nums)
 {
     int n = nums.size();
 
     int freq = 0, ans = 0;
 
+    // this gives only ans which has more freq
     for (int i = 0; i < n; i++)
     {
         if (freq == 0)
@@ -55,6 +59,8 @@ int majorityEle(vector<int> nums)
             freq--;
         }
     }
+
+    // it counts the freq
     freq = 0;
     for (int i = 0; i < n; i++)
     {
@@ -76,7 +82,7 @@ int majorityEle(vector<int> nums)
 
 int main()
 {
-    vector<int> num = {1, 2, 2, 1, 1, 1,3};
+    vector<int> num = {1, 2, 2, 1, 1, 1, 3};
 
     int result = majorityEle(num);
 
