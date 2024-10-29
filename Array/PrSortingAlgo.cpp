@@ -6,10 +6,11 @@ using namespace std;
 
 void BubbleSort(vector<int> &arr, int n) // O(n^2)
 {
-    bool isSwap = false;
+    bool isSwap;
 
     for (int i = 0; i < n; i++)
     {
+        isSwap = false;
         for (int j = 0; j < n - i - 1; j++)
         {
             if (arr[j] > arr[j + 1])
