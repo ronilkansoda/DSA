@@ -5,7 +5,6 @@
 using namespace std;
 
 // Brute Force O(n^2)
-bool check(vector<int> &nums)
 {
     int n = nums.size();
     int Cdiff = 0;
