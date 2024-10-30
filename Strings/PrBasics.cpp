@@ -19,14 +19,18 @@ int main()
 
     string str = "ronil Kansoda"; // dynamic => runtime resize
 
-    str = "omil kansoda";
+    // str = "omil kansoda";
 
-    getline(cin, str);
+    // getline(cin, str);
 
-    cout << "Output : " << str << endl;
+    // cout << "Output : " << str << endl;
 
-    reverse(str.begin(), str.end()); // iterators 
-    cout << "reverse : " << str << endl;
+    // reverse(str.begin(), str.end()); // iterators 
+    // cout << "reverse : " << str << endl;
+ 
+
+    cout << str.find("ofnil") << endl;
+    cout << str.erase(5,12) << endl;
 
     return 0;
 }
