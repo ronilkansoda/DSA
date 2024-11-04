@@ -23,7 +23,7 @@ bool isPalindrome(string s) // O(n)
             st++;
             continue;
         }
-        if (!isAlphaNum(s[end]))
+        if (!isAlphaNum(s[end])) // isalnum(s[end]) by using #include <cctype>
         {
             end--;
             continue;
