@@ -21,19 +21,23 @@ The repository is organized into categories based on types of data structures an
 - **Mathematics and Number Theory**
 
 Each category contains:
-- Detailed explanations of concepts.
-- Code implementations in C++ (or language of choice).
-- Solutions to popular DSA problems from resources like [Striver's A2Z DSA Course](https://takeuforward.org/strivers-a2z-dsa-course/) and Apna College.
+- Detailed code with different time and space complexity.
+- Code implementations in C++ .
+- Solutions to popular DSA problems from resources like [Striver's A2Z DSA Course](https://takeuforward.org/strivers-a2z-dsa-course/) and [Apna College](https://www.youtube.com/playlist?list=PLfqMhTWNBTe137I_EPQd34TsgV6IO55pt).
 
 ## 📈 Progress Tracking
 
 | Topic                      | Problems Completed |
 | -------------------------- | ------------------ |
-| Arrays and Strings         | ✅                  |
-| Linked Lists               | ✅                  |
-| Stacks and Queues          | ✅                  |
-| Trees and Graphs           | 🔄                  |
-| Recursion and Backtracking | 🔄                  |
+| Arrays and Strings         | 🔄                  |
+| Linked Lists               | 🔄                  |
+| Stacks and Queues          | ⏳                  |
+| Trees and Graphs           | ⏳                  |
+| Recursion and Backtracking | ⏳                  |
 
 *🔄 = In Progress*
+*⏳ = Not Done*
 
+## 🤝 Contributing
+
+While this repository is for my personal learning, contributions are welcome! Feel free to open issues or submit pull requests if you have solutions or optimizations to add.
