@@ -23,7 +23,7 @@ The repository is organized into categories based on types of data structures an
 Each category contains:
 - Detailed code with different time and space complexity.
 - Code implementations in C++ .
-- Solutions to popular DSA problems from resources like [Striver's A2Z DSA Course](https://takeuforward.org/strivers-a2z-dsa-course/) and [Apna College](https://www.youtube.com/playlist?list=PLfqMhTWNBTe137I_EPQd34TsgV6IO55pt).
+- Solutions to popular DSA problems from resources like [Striver's A2Z DSA Course](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) and [Apna College](https://www.youtube.com/playlist?list=PLfqMhTWNBTe137I_EPQd34TsgV6IO55pt).
 
 ## 📈 Progress Tracking
 
