@@ -25,8 +25,15 @@ Each category contains:
 - Code implementations in C++ (or language of choice).
 - Solutions to popular DSA problems from resources like [Striver's A2Z DSA Course](https://takeuforward.org/strivers-a2z-dsa-course/) and Apna College.
 
-## 🚀 Getting Started
+## 📈 Progress Tracking
 
-1. Clone the repository to explore solutions or contribute.
-   ```bash
-   git clone https://github.com/yourusername/DSA-Practice.git
+| Topic                      | Problems Completed |
+| -------------------------- | ------------------ |
+| Arrays and Strings         | ✅                  |
+| Linked Lists               | ✅                  |
+| Stacks and Queues          | ✅                  |
+| Trees and Graphs           | 🔄                  |
+| Recursion and Backtracking | 🔄                  |
+
+*🔄 = In Progress*
+
