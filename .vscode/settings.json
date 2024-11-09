@@ -16,6 +16,7 @@
         "initializer_list": "cpp",
         "ostream": "cpp",
         "*.tcc": "cpp",
-        "set": "cpp"
+        "set": "cpp",
+        "new": "cpp"
     }
 }
