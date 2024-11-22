@@ -49,7 +49,7 @@ void printLL(Node *head)
 
 Node *addTwoNumbers(Node *l1, Node *l2)
 {
-    Node *dummy = new Node();
+    Node *dummy = new Node(-1);
     Node *temp = dummy;
     int carry = 0;
     while ((l1 != NULL || l2 != NULL) || carry)
@@ -79,8 +79,8 @@ Node *addTwoNumbers(Node *l1, Node *l2)
 int main()
 {
 
-    vector<int> arr1 = {4, 1, 8, 4, 5};
-    vector<int> arr2 = {5, 6, 1, 8, 4, 5};
+    vector<int> arr1 = {1, 2, 4};
+    vector<int> arr2 = {4, 5, 6};
     Node *head1 = convertArr2LL(arr1);
     Node *head2 = convertArr2LL(arr2);
     Node *intersection = addTwoNumbers(head1, head2);
