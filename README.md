@@ -31,9 +31,9 @@ Each category contains:
 | -------------------------- | ------------------ |
 | Arrays and Strings         | 🔄                  |
 | Linked Lists               | 🔄                  |
+| Recursion and Backtracking | 🔄                  |
 | Stacks and Queues          | ⏳                  |
 | Trees and Graphs           | ⏳                  |
-| Recursion and Backtracking | ⏳                  |
 
 *🔄 = In Progress*
 *⏳ = Not Done*
