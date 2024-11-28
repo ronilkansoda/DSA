@@ -10,6 +10,8 @@ using namespace std;
 //                  /         /     \            /     \
 //                ((()))   (()())   (())()     ()()()   ()(())
 
+
+// TC = O(2^n) and SC = O(n)
 void genPar(int open, int close, string current, vector<string> &result, int n)
 {
     if (current.length() == 2 * n)
