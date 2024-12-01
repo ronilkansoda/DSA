@@ -6,16 +6,13 @@ void subRecursion(vector<int> &nums, int index, int currentSum, vector<int> &res
 {
     result.push_back(currentSum);
 
-    // aa first time i=1 mate cur=[[],[1],[1,2],[1,2,3]] thase and subRecursion thai curr=[] thase pachi 2nd time for loop farse with i = 2
     for (int i = index; i < nums.size(); ++i)
     {
 
-        // Recursively generate further subsets
         subRecursion(nums, i + 1, currentSum + nums[i], result);
     }
 }
 
-// TC = O(2^n * n) and SC = O(n)
 vector<int> subsets(vector<int> &nums)
 {
     vector<int> result;
